@@ -1,0 +1,33 @@
+{
+  "name": "sperelson/PrettyParam",
+  "description": "Pretty GET params middleware for Laravel 5.5",
+  "license": "MIT",
+  "keywords": [
+    "laravel",
+    "GET",
+    "params",
+    "middleware"
+  ],
+  "authors": [
+    {
+      "name": "Stephen Perelson",
+      "email": "party@feedfeast.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0.0",
+    "laravel/framework": "5.5.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Sperelson\\PrettyParam\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Sperelson\\PrettyParam\\Providers\\PrettyParamProvider"
+      ]
+    }
+  }
+}
