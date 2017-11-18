@@ -1,5 +1,5 @@
 {
-  "name": "sperelson/PrettyParam",
+  "name": "sperelson/prettyparam",
   "description": "Pretty GET params middleware for Laravel 5.5",
   "license": "MIT",
   "keywords": [
