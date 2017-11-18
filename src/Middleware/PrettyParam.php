@@ -6,7 +6,6 @@ use Illuminate\Http\Request;
 
 class PrettyParam
 {
-
     public function handle(Request $request, \Closure $next)
     {
     	$query = $request->server('QUERY_STRING');
@@ -28,6 +27,7 @@ class PrettyParam
                     }
                 }
             }
+
             foreach ($params as $key => $param) {
                 if (count($param) > 1) {
                     $input[$key] = $param;
